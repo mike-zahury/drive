@@ -1,0 +1,16 @@
+# Tento soubor určuje pravidla pro prohledávače
+
+User-agent: *  # Tato pravidla platí pro všechny prohledávače
+
+# Nepovolujeme indexování administrativních a citlivých částí
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /thank-you/
+
+# Povolujeme indexování obrázků a veřejného obsahu
+Allow: /images/
+
+# Sitemapy pro lepší indexaci
+Sitemap: https://www.drive4u.cz/sitemap.xml
